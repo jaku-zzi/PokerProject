@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+Card	Card.java	/^    public Card(String face, String suit) {$/;"	m	class:Card
+Card	Card.java	/^public class Card {$/;"	c
+Deck	Deck.java	/^    public Deck(){        $/;"	m	class:Deck
+Deck	Deck.java	/^public class Deck {$/;"	c
+Game	Game.java	/^public class Game {$/;"	c
+Gamelogic	Gamelogic.java	/^    public Gamelogic() {$/;"	m	class:Gamelogic
+Gamelogic	Gamelogic.java	/^public class Gamelogic {$/;"	c
+MAX_CARD	Player.java	/^    public final static int MAX_CARD = 5;$/;"	f	class:Player
+Player	Player.java	/^    public Player() {$/;"	m	class:Player
+Player	Player.java	/^public class Player {$/;"	c
+PokerGUI	PokerGUI.java	/^public class PokerGUI {$/;"	c
+TOTAL_CARDS	Deck.java	/^    private final int TOTAL_CARDS=52;$/;"	f	class:Deck	file:
+bettings	Player.java	/^    private int bettings = 100;$/;"	f	class:Player	file:
+cards	Player.java	/^    private Card cards[];$/;"	f	class:Player	file:
+dealCards	Gamelogic.java	/^    public void dealCards() {$/;"	m	class:Gamelogic
+deck	Deck.java	/^    private final Card deck[];$/;"	f	class:Deck	file:
+deck	Game.java	/^    private Deck deck;$/;"	f	class:Game	file:
+deck	Gamelogic.java	/^    private Deck deck;$/;"	f	class:Gamelogic	file:
+evaluateHand	Gamelogic.java	/^    public int evaluateHand(int x) {$/;"	m	class:Gamelogic
+face	Card.java	/^    private String face;$/;"	f	class:Card	file:
+faces	Deck.java	/^    private final String faces[] = {"Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","K/;"	f	class:Deck	file:
+getCard	Deck.java	/^    public Card getCard(int index){$/;"	m	class:Deck
+getCardAtIndex	Player.java	/^    public Card getCardAtIndex(int index) {$/;"	m	class:Player
+getCards	Player.java	/^    public Card[] getCards() {$/;"	m	class:Player
+getFace	Card.java	/^    public String getFace() {$/;"	m	class:Card
+getSuit	Card.java	/^    public String getSuit() {$/;"	m	class:Card
+main	Game.java	/^    public static void main (String[] args){$/;"	m	class:Game
+players	Game.java	/^    private Player[] players;$/;"	f	class:Game	file:
+players	Gamelogic.java	/^    private Player[] players;$/;"	f	class:Gamelogic	file:
+randNum	Deck.java	/^    private final Random randNum;    $/;"	f	class:Deck	file:
+setCardAtIndex	Player.java	/^    public void setCardAtIndex(Card c, int index) {$/;"	m	class:Player
+setFace	Card.java	/^    public void setFace(String face) {$/;"	m	class:Card
+setSuit	Card.java	/^    public void setSuit(String suit) {$/;"	m	class:Card
+showCards	Gamelogic.java	/^    public void showCards() {$/;"	m	class:Gamelogic
+shuffle	Deck.java	/^    public void shuffle(){$/;"	m	class:Deck
+suit	Card.java	/^    private String suit;$/;"	f	class:Card	file:
+suits	Deck.java	/^    private final String suits[]={"Hearts","Diamonds","Clubs","Spades"};$/;"	f	class:Deck	file:
+toString	Card.java	/^    public String toString() {$/;"	m	class:Card

@@ -4,7 +4,6 @@ public class Card {
     private String suit;
     //two-argument constructor initializes Cards face and suit
     public Card(String face, String suit) {
-	super();
 	this.face = face;
 	this.suit = suit;
     }

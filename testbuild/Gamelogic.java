@@ -2,8 +2,6 @@
  * Gamelogic and things based on rules for the game.
  * evaluateHand() will assess the value of a given hand
  * through an integer value return.
- *
- *
  */
 
 import java.util.*;
@@ -39,6 +37,26 @@ public class Gamelogic {
 
 	    }
 	}
+    }
+    //exhanges selectedCards for new one's from the deck, gets rid of selectedcards, updates
+    //hand, and prints whether cards have been exchanged or not.
+    public void exchangeCards(int playerIndex) {
+	int x = playerIndex;
+	int count = 0;
+	boolean exchange = false;
+	
+	for (int index=0; index < Player.MAX_CARD; index++) {
+	    if (players[x].getSelectedCards(index) != null)
+	    {
+		players[x].setCardAtIndex(deck.getCard(count++), index);	
+		players[x].deselectCard(index);
+		exchange = true;
+	    }
+	}//end scan loop
+	if (exchange == false)
+	    System.out.println("No cards were selected for exhange!");
+	else if (exchange == true) 
+	    System.out.println("Cards were exchanged!");
     }
 
     //evaluates hands of a player based on common Poker hands 
@@ -210,7 +228,7 @@ public class Gamelogic {
 		System.out.println("Flush");
 	    }
 	} 
-	    
+
 	    //total handValue
 	    int handValue = handType + highCard;
 	    //testing
